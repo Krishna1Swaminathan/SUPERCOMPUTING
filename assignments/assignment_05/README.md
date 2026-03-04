@@ -103,7 +103,7 @@ nano pipeline.sh
 set -euo pipefail
 
 ./scripts/01_download_data.sh
-# runt he fastq on all the reads
+# run the fastq on all the reads
 for FWD in data/raw/*_R1_*.fastq.gz
 do
     ./scripts/02_run_fastp.sh $FWD
