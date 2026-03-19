@@ -44,7 +44,7 @@ later i think it will be part of a pipeline so it wont be neded to manually run 
 echo 'export PATH="$HOME/programs/Flye/bin:$PATH"' >> ~/.bashrc
 adding this will append it to the bashrc
 
-##part 4
+## part 4
 
 nano scripts/02_flye_2.9.6_conda_install.sh
 
@@ -68,7 +68,7 @@ conda env export --no-builds > ./flye-env.yml
 conda deactivate
 
 
-##part 6
+## part 6
 
 nano scripts/03_run_flye_conda.sh
 
