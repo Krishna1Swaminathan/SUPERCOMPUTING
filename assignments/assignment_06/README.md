@@ -103,7 +103,7 @@ conda deactivate
 then use bash scripts/03_run_flye_conda.sh to run it
 check to make sure that same 2 contigs, same total length, same coverage
 
-#part B
+# part B
 use the HPC module env
 
 
@@ -131,7 +131,7 @@ find . -mindepth 1 -type d -exec rm -rf {} +
 then use bash scripts/03_run_flye_module.sh to run it
 check that the output matches part A
 
-#part c
+# part c
 
 nano scripts/03_run_flye_local.sh
 
@@ -155,7 +155,7 @@ find . -mindepth 1 -type d -exec rm -rf {} +
 
 then again run bash scripts/03_run_flye_local.sh to get the output
 
-##part 7
+## part 7
 now we compare the last 10 lines of each log
 
 tail -10 ./assemblies/assembly_conda/conda_flye.log
@@ -230,7 +230,7 @@ tail -10 ./assemblies/assembly_local/local_flye.log
 
 echo "Pipeline complete"
 
-##Part 9
+## Part 9
 I need to undo everything so delete all data and conda ect.
 
 
