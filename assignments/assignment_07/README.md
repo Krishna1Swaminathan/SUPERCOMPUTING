@@ -213,9 +213,19 @@ bash /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/scrip
 
 Results
 
-| Sample | Clean Reads | Dog Hits |
-|--------|-------------|----------|
-| SRR31168905 | 5736406 | 2732 |
+| Sample       | Clean Reads | Dog Hits |
+|--------------|------------|----------|
+| SRR31168905  | 5736406    | 2732     |
+| SRR31168906  |            |          |
+| SRR31168912  |            |          |
+| SRR31168913  |            |          |
+| SRR31168934  |            |          |
+| SRR31168939  |            |          |
+| SRR31168945  |            |          |
+| SRR31168974  |            |          |
+| SRR31168977  |            |          |
+| SRR33837689  |            |          |
+
 
 I was having a recurring issue where the slurm script would only run 1 out of the 10 files and complete. I tried several times. I believe the issue was when downloadinng the file paths of the data got messed up each file first got saved under a folder with the same name as the file. But for other files that did not happen. I was not able to find that out until too late so I only was able to do one sample. Especially when it took several hours to queue and then run it took a very long time to indentify the errors and I would fix one thing and just have to hope everything worked perfectly. 
 I ran the my scripts throuhg slurm 4 times total over the course of 2 days and did small fixes each time. I wish there was something i could have done to have ixed the one sample issue before it was too late.
