@@ -1,0 +1,10 @@
+*.fastq
+*.fq
+*.bam
+*.sam
+*.zip
+data/raw/
+data/clean/
+data/mapped/
+data/hits/
+data/reference/

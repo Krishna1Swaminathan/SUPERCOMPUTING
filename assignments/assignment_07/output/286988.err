@@ -1,0 +1,651 @@
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 2940617
+total bases: 444033167
+Q20 bases: 431754234(97.2347%)
+Q30 bases: 411626795(92.7018%)
+Q40 bases: 411626795(92.7018%)
+
+Read2 before filtering:
+total reads: 2940617
+total bases: 444033167
+Q20 bases: 427072638(96.1803%)
+Q30 bases: 401304549(90.3772%)
+Q40 bases: 401304549(90.3772%)
+
+Read1 after filtering:
+total reads: 2868203
+total bases: 424519514
+Q20 bases: 415878756(97.9646%)
+Q30 bases: 399246450(94.0467%)
+Q40 bases: 399246450(94.0467%)
+
+Read2 after filtering:
+total reads: 2868203
+total bases: 424528971
+Q20 bases: 412949774(97.2725%)
+Q30 bases: 391259577(92.1632%)
+Q40 bases: 391259577(92.1632%)
+
+Filtering result:
+reads passed filter: 5736406
+reads failed due to low quality: 112530
+reads failed due to too many N: 5590
+reads failed due to too short: 26708
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 481887
+bases trimmed due to adapters: 20231896
+
+Duplication rate: 4.18623%
+
+Insert size peak (evaluated by paired-end reads): 263
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168905_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168905_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_fastp.html 
+fastp v1.1.0, time used: 62 seconds
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 2258927
+total bases: 341097977
+Q20 bases: 329954235(96.733%)
+Q30 bases: 310335895(90.9815%)
+Q40 bases: 310335895(90.9815%)
+
+Read2 before filtering:
+total reads: 2258927
+total bases: 341097977
+Q20 bases: 328565344(96.3258%)
+Q30 bases: 308439624(90.4255%)
+Q40 bases: 308439624(90.4255%)
+
+Read1 after filtering:
+total reads: 2206111
+total bases: 328683697
+Q20 bases: 319763614(97.2861%)
+Q30 bases: 302437191(92.0147%)
+Q40 bases: 302437191(92.0147%)
+
+Read2 after filtering:
+total reads: 2206111
+total bases: 328685880
+Q20 bases: 319768207(97.2869%)
+Q30 bases: 302448958(92.0176%)
+Q40 bases: 302448958(92.0176%)
+
+Filtering result:
+reads passed filter: 4412222
+reads failed due to low quality: 87940
+reads failed due to too many N: 4196
+reads failed due to too short: 13496
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 250348
+bases trimmed due to adapters: 10428328
+
+Duplication rate: 3.91987%
+
+Insert size peak (evaluated by paired-end reads): 271
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168906_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168906_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_fastp.html 
+fastp v1.1.0, time used: 54 seconds
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 1892362
+total bases: 285746662
+Q20 bases: 278440123(97.443%)
+Q30 bases: 265686735(92.9798%)
+Q40 bases: 265686735(92.9798%)
+
+Read2 before filtering:
+total reads: 1892362
+total bases: 285746662
+Q20 bases: 274622612(96.107%)
+Q30 bases: 257031234(89.9507%)
+Q40 bases: 257031234(89.9507%)
+
+Read1 after filtering:
+total reads: 1847368
+total bases: 275232929
+Q20 bases: 269572348(97.9433%)
+Q30 bases: 258548303(93.938%)
+Q40 bases: 258548303(93.938%)
+
+Read2 after filtering:
+total reads: 1847368
+total bases: 275236651
+Q20 bases: 267330344(97.1275%)
+Q30 bases: 252213034(91.635%)
+Q40 bases: 252213034(91.635%)
+
+Filtering result:
+reads passed filter: 3694736
+reads failed due to low quality: 76978
+reads failed due to too many N: 3444
+reads failed due to too short: 9566
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 218475
+bases trimmed due to adapters: 8538978
+
+Duplication rate: 4.42981%
+
+Insert size peak (evaluated by paired-end reads): 270
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168912_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168912_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168912_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168912_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168912_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168912_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168912_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168912_fastp.html 
+fastp v1.1.0, time used: 53 seconds
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 2252918
+total bases: 340190618
+Q20 bases: 330047517(97.0184%)
+Q30 bases: 312002722(91.7141%)
+Q40 bases: 312002722(91.7141%)
+
+Read2 before filtering:
+total reads: 2252918
+total bases: 340190618
+Q20 bases: 321143609(94.4011%)
+Q30 bases: 292821597(86.0757%)
+Q40 bases: 292821597(86.0757%)
+
+Read1 after filtering:
+total reads: 2159069
+total bases: 322238778
+Q20 bases: 314517237(97.6038%)
+Q30 bases: 299321061(92.888%)
+Q40 bases: 299321061(92.888%)
+
+Read2 after filtering:
+total reads: 2159069
+total bases: 322241766
+Q20 bases: 309998665(96.2006%)
+Q30 bases: 286846057(89.0158%)
+Q40 bases: 286846057(89.0158%)
+
+Filtering result:
+reads passed filter: 4318138
+reads failed due to low quality: 168450
+reads failed due to too many N: 4004
+reads failed due to too short: 15244
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 207269
+bases trimmed due to adapters: 9304737
+
+Duplication rate: 3.73063%
+
+Insert size peak (evaluated by paired-end reads): 271
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168913_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168913_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168913_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168913_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168913_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168913_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168913_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168913_fastp.html 
+fastp v1.1.0, time used: 57 seconds
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 2476675
+total bases: 373977925
+Q20 bases: 362662677(96.9744%)
+Q30 bases: 343831604(91.939%)
+Q40 bases: 343831604(91.939%)
+
+Read2 before filtering:
+total reads: 2476675
+total bases: 373977925
+Q20 bases: 352206766(94.1785%)
+Q30 bases: 320518672(85.7052%)
+Q40 bases: 320518672(85.7052%)
+
+Read1 after filtering:
+total reads: 2372060
+total bases: 352053272
+Q20 bases: 344034603(97.7223%)
+Q30 bases: 328685399(93.3624%)
+Q40 bases: 328685399(93.3624%)
+
+Read2 after filtering:
+total reads: 2372060
+total bases: 352058098
+Q20 bases: 337905337(95.98%)
+Q30 bases: 312018521(88.627%)
+Q40 bases: 312018521(88.627%)
+
+Filtering result:
+reads passed filter: 4744120
+reads failed due to low quality: 182950
+reads failed due to too many N: 4466
+reads failed due to too short: 21814
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 331377
+bases trimmed due to adapters: 14763539
+
+Duplication rate: 4.01809%
+
+Insert size peak (evaluated by paired-end reads): 271
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168934_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168934_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168934_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168934_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168934_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168934_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168934_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168934_fastp.html 
+fastp v1.1.0, time used: 61 seconds
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 2892919
+total bases: 436830769
+Q20 bases: 423048462(96.8449%)
+Q30 bases: 400063592(91.5832%)
+Q40 bases: 400063592(91.5832%)
+
+Read2 before filtering:
+total reads: 2892919
+total bases: 436830769
+Q20 bases: 420696045(96.3064%)
+Q30 bases: 395545219(90.5488%)
+Q40 bases: 395545219(90.5488%)
+
+Read1 after filtering:
+total reads: 2824822
+total bases: 420942283
+Q20 bases: 410339995(97.4813%)
+Q30 bases: 390373692(92.7381%)
+Q40 bases: 390373692(92.7381%)
+
+Read2 after filtering:
+total reads: 2824822
+total bases: 420947652
+Q20 bases: 409350617(97.245%)
+Q30 bases: 387686194(92.0984%)
+Q40 bases: 387686194(92.0984%)
+
+Filtering result:
+reads passed filter: 5649644
+reads failed due to low quality: 107980
+reads failed due to too many N: 5140
+reads failed due to too short: 23074
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 310284
+bases trimmed due to adapters: 13845871
+
+Duplication rate: 4.37423%
+
+Insert size peak (evaluated by paired-end reads): 271
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168939_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168939_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168939_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168939_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168939_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168939_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168939_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168939_fastp.html 
+fastp v1.1.0, time used: 64 seconds
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 1390763
+total bases: 210005213
+Q20 bases: 204022432(97.1511%)
+Q30 bases: 194033074(92.3944%)
+Q40 bases: 194033074(92.3944%)
+
+Read2 before filtering:
+total reads: 1390763
+total bases: 210005213
+Q20 bases: 200013652(95.2422%)
+Q30 bases: 184953245(88.0708%)
+Q40 bases: 184953245(88.0708%)
+
+Read1 after filtering:
+total reads: 1349873
+total bases: 201436467
+Q20 bases: 197098982(97.8467%)
+Q30 bases: 188718036(93.6861%)
+Q40 bases: 188718036(93.6861%)
+
+Read2 after filtering:
+total reads: 1349873
+total bases: 201438616
+Q20 bases: 194662673(96.6362%)
+Q30 bases: 182009440(90.3548%)
+Q40 bases: 182009440(90.3548%)
+
+Filtering result:
+reads passed filter: 2699746
+reads failed due to low quality: 70660
+reads failed due to too many N: 2664
+reads failed due to too short: 8456
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 133557
+bases trimmed due to adapters: 5764857
+
+Duplication rate: 4.24184%
+
+Insert size peak (evaluated by paired-end reads): 271
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168945_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168945_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168945_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168945_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168945_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168945_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168945_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168945_fastp.html 
+fastp v1.1.0, time used: 40 seconds
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 1979839
+total bases: 298955689
+Q20 bases: 290969631(97.3287%)
+Q30 bases: 277400667(92.7899%)
+Q40 bases: 277400667(92.7899%)
+
+Read2 before filtering:
+total reads: 1979839
+total bases: 298955689
+Q20 bases: 288305868(96.4377%)
+Q30 bases: 271900827(90.9502%)
+Q40 bases: 271900827(90.9502%)
+
+Read1 after filtering:
+total reads: 1942477
+total bases: 288813438
+Q20 bases: 282492461(97.8114%)
+Q30 bases: 270520658(93.6662%)
+Q40 bases: 270520658(93.6662%)
+
+Read2 after filtering:
+total reads: 1942477
+total bases: 288818517
+Q20 bases: 280643654(97.1696%)
+Q30 bases: 266157831(92.154%)
+Q40 bases: 266157831(92.154%)
+
+Filtering result:
+reads passed filter: 3884954
+reads failed due to low quality: 55924
+reads failed due to too many N: 4276
+reads failed due to too short: 14524
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 271164
+bases trimmed due to adapters: 10652561
+
+Duplication rate: 6.33557%
+
+Insert size peak (evaluated by paired-end reads): 262
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168974_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168974_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168974_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168974_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168974_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168974_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168974_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168974_fastp.html 
+fastp v1.1.0, time used: 43 seconds
+Detecting adapter sequence for read1...
+>I7_Nextera_Transposase_1 | >Trans2_rc | >I7_Nextera_Transposase_1 | >Trans2_rc
+CTGTCTCTTATACACATCTCCGAGCCCACGAGAC
+
+Detecting adapter sequence for read2...
+>I5_Nextera_Transposase_1 | >Trans1_rc | >I5_Nextera_Transposase_1 | >Trans1_rc
+CTGTCTCTTATACACATCTGACGCTGCCGACGA
+
+Read1 before filtering:
+total reads: 1039137
+total bases: 156909687
+Q20 bases: 152329982(97.0813%)
+Q30 bases: 144562524(92.131%)
+Q40 bases: 144562524(92.131%)
+
+Read2 before filtering:
+total reads: 1039137
+total bases: 156909687
+Q20 bases: 149446228(95.2435%)
+Q30 bases: 138036505(87.9719%)
+Q40 bases: 138036505(87.9719%)
+
+Read1 after filtering:
+total reads: 1007317
+total bases: 149193977
+Q20 bases: 145882871(97.7807%)
+Q30 bases: 139428547(93.4545%)
+Q40 bases: 139428547(93.4545%)
+
+Read2 after filtering:
+total reads: 1007317
+total bases: 149197962
+Q20 bases: 144120819(96.597%)
+Q30 bases: 134550641(90.1826%)
+Q40 bases: 134550641(90.1826%)
+
+Filtering result:
+reads passed filter: 2014634
+reads failed due to low quality: 53402
+reads failed due to too many N: 1840
+reads failed due to too short: 8398
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 159737
+bases trimmed due to adapters: 6789686
+
+Duplication rate: 3.16936%
+
+Insert size peak (evaluated by paired-end reads): 261
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168977_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168977_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168977_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR31168977_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168977_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168977_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168977_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168977_fastp.html 
+fastp v1.1.0, time used: 23 seconds
+Detecting adapter sequence for read1...
+No adapter detected for read1
+
+Detecting adapter sequence for read2...
+No adapter detected for read2
+
+Read1 before filtering:
+total reads: 94249
+total bases: 26334507
+Q20 bases: 26075688(99.0172%)
+Q30 bases: 25432369(96.5743%)
+Q40 bases: 0(0%)
+
+Read2 before filtering:
+total reads: 94249
+total bases: 22619099
+Q20 bases: 22126738(97.8233%)
+Q30 bases: 21052513(93.0741%)
+Q40 bases: 0(0%)
+
+Read1 after filtering:
+total reads: 94103
+total bases: 26293505
+Q20 bases: 26037127(99.0249%)
+Q30 bases: 25398189(96.5949%)
+Q40 bases: 0(0%)
+
+Read2 after filtering:
+total reads: 94103
+total bases: 22583906
+Q20 bases: 22107650(97.8912%)
+Q30 bases: 21050910(93.212%)
+Q40 bases: 0(0%)
+
+Filtering result:
+reads passed filter: 188206
+reads failed due to low quality: 290
+reads failed due to too many N: 2
+reads failed due to too short: 0
+reads failed due to adapter dimer: 0
+reads with adapter trimmed: 2
+bases trimmed due to adapters: 360
+
+Duplication rate: 24.205%
+
+Insert size peak (evaluated by paired-end reads): 440
+
+JSON report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR33837689_fastp.json
+HTML report: /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR33837689_fastp.html
+
+fastp --in1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR33837689_1.fastq --in2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/raw/SRR33837689_2.fastq --out1 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR33837689_1.clean.fastq --out2 /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR33837689_2.clean.fastq --thread 8 --detect_adapter_for_pe --qualified_quality_phred 20 --length_required 50 --json /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR33837689_fastp.json --html /sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR33837689_fastp.html 
+fastp v1.1.0, time used: 141 seconds
+java -ea -Xmx16g -Xms16g -cp /sciclone/home/ksswaminathan/programs/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -Xmx16g ref=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/reference/dog_genome.fna in1=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_1.clean.fastq in2=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_2.clean.fastq out=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/mapped/SRR31168905.bam minid=0.95 threads=8 nodisk
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -Xmx16g, ref=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/reference/dog_genome.fna, in1=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_1.clean.fastq, in2=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168905_2.clean.fastq, out=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/mapped/SRR31168905.bam, minid=0.95, threads=8, nodisk]
+Version 39.06
+
+Set threads to 8
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Executing dna.FastaToChromArrays2 [/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/reference/dog_genome.fna, 1, writeinthread=false, genscaffoldinfo=true, retain, waitforwriting=false, gz=true, maxlen=536670912, writechroms=false, minscaf=1, midpad=300, startpad=8000, stoppad=8000, nodisk=true]
+
+Set genScaffoldInfo=true
+Set genome to 1
+
+Loaded Reference:	0.014 seconds.
+Loading index for chunk 1-5, build 1
+Indexing threads started for block 0-3
+Indexing threads started for block 4-5
+Indexing threads finished for block 4-5
+Indexing threads finished for block 0-3
+Generated Index:	162.864 seconds.
+Analyzed Index:   	11.739 seconds.
+Found samtools 1.19
+Started output stream:	0.688 seconds.
+Cleared Memory:    	0.111 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 8 mapping threads.
+Detecting finished threads: 0, 1, 2, 3, 4, 5, 6, 7
+
+   ------------------   Results   ------------------   
+
+Genome:                	1
+Key Length:            	13
+Max Indel:             	16000
+Minimum Score Ratio:  	0.9081
+Mapping Mode:         	normal
+Reads Used:           	5736406	(849048485 bases)
+
+Mapping:          	1444.599 seconds.
+Reads/sec:       	3970.93
+kBases/sec:      	587.74
+
+
+Pairing data:   	pct pairs	num pairs 	pct bases	   num bases
+
+mated pairs:     	  0.0130% 	      373 	  0.0084% 	       71566
+bad pairs:       	  0.0035% 	      100 	  0.0020% 	       17228
+insert size avg: 	  380.55
+
+
+Read 1 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0227% 	      652 	  0.0153% 	       64958
+unambiguous:     	  0.0076% 	      218 	  0.0054% 	       22747
+ambiguous:       	  0.0151% 	      434 	  0.0099% 	       42211
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0045% 	      128 	  0.0024% 	       10086
+semiperfect site:	  0.0052% 	      150 	  0.0029% 	       12115
+rescued:         	  0.0077% 	      222
+
+Match Rate:      	      NA 	       NA 	 72.1150% 	       63516
+Error Rate:      	 80.0613% 	      522 	 27.8805% 	       24556
+Sub Rate:        	 72.5460% 	      473 	  1.5123% 	        1332
+Del Rate:        	  8.2822% 	       54 	 26.2478% 	       23118
+Ins Rate:        	 13.0368% 	       85 	  0.1204% 	         106
+N Rate:          	  0.6135% 	        4 	  0.0045% 	           4
+
+
+Read 2 data:      	pct reads	num reads 	pct bases	   num bases
+
+mapped:          	  0.0725% 	     2080 	  0.0664% 	      281888
+unambiguous:     	  0.0423% 	     1214 	  0.0412% 	      174843
+ambiguous:       	  0.0302% 	      866 	  0.0252% 	      107045
+low-Q discards:  	  0.0000% 	        0 	  0.0000% 	           0
+
+perfect best site:	  0.0066% 	      190 	  0.0058% 	       24820
+semiperfect site:	  0.0071% 	      205 	  0.0061% 	       26040
+rescued:         	  0.0074% 	      211
+
+Match Rate:      	      NA 	       NA 	 96.4171% 	      276474
+Error Rate:      	 90.7212% 	     1887 	  3.5627% 	       10216
+Sub Rate:        	 88.8942% 	     1849 	  1.8270% 	        5239
+Del Rate:        	  2.4519% 	       51 	  1.6949% 	        4860
+Ins Rate:        	  4.1827% 	       87 	  0.0408% 	         117
+N Rate:          	  2.1635% 	       45 	  0.0202% 	          58
+
+Total time:     	1685.944 seconds.
+java -ea -Xmx16g -Xms16g -cp /sciclone/home/ksswaminathan/programs/bbmap/current/ align2.BBMap build=1 overwrite=true fastareadlen=500 -Xmx16g ref=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/reference/dog_genome.fna in1=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_1.clean.fastq in2=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_2.clean.fastq out=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/mapped/SRR31168906.bam minid=0.95 threads=8 nodisk
+Executing align2.BBMap [build=1, overwrite=true, fastareadlen=500, -Xmx16g, ref=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/reference/dog_genome.fna, in1=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_1.clean.fastq, in2=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/clean/SRR31168906_2.clean.fastq, out=/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/mapped/SRR31168906.bam, minid=0.95, threads=8, nodisk]
+Version 39.06
+
+Set threads to 8
+Retaining first best site only for ambiguous mappings.
+Set MINIMUM_ALIGNMENT_SCORE_RATIO to 0.908
+Executing dna.FastaToChromArrays2 [/sciclone/home/ksswaminathan/SUPERCOMPUTING/assignments/assignment_07/data/reference/dog_genome.fna, 1, writeinthread=false, genscaffoldinfo=true, retain, waitforwriting=false, gz=true, maxlen=536670912, writechroms=false, minscaf=1, midpad=300, startpad=8000, stoppad=8000, nodisk=true]
+
+Set genScaffoldInfo=true
+Set genome to 1
+
+Loaded Reference:	0.013 seconds.
+Loading index for chunk 1-5, build 1
+Indexing threads started for block 4-5
+Indexing threads started for block 0-3
+Indexing threads finished for block 4-5
+Indexing threads finished for block 0-3
+Generated Index:	151.120 seconds.
+Analyzed Index:   	9.984 seconds.
+Found samtools 1.19
+Started output stream:	0.062 seconds.
+Cleared Memory:    	0.109 seconds.
+Processing reads in paired-ended mode.
+Started read stream.
+Started 8 mapping threads.
